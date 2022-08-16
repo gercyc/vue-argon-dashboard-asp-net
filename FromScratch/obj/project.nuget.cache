@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DzqSTF+XCxcF3mrvGjD4XEu3r+otpFLB1RoszweLoghzFFvQ97dh4HfmTxTy1VZD91gT1p0GabfK/6YgImopug==",
+  "success": true,
+  "projectFilePath": "C:\\source_gercy\\gercyc\\vue-argon-dashboard-asp-net\\FromScratch\\FromScratch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gercy\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.8\\microsoft.aspnetcore.spaproxy.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:8080",
+"LaunchCommand": "yarn serve",
+"WorkingDirectory": "C:\\source_gercy\\gercyc\\vue-argon-dashboard-asp-net\\FromScratch\\Vue\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

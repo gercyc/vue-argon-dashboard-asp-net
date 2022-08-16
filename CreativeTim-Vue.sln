@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{49D3A4AA-40EB-4174-BC8A-4D4A60812D6D}"
 EndProject
@@ -32,6 +32,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temp", "Temp", "{B6104D2B-2358-4800-8A43-4E30153E725A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetReact", "AspNetReact\AspNetReact.csproj", "{D55AA8B7-BF76-4992-B453-DFDCB1A0C458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromScratch", "FromScratch\FromScratch.csproj", "{3FBF35B5-A6E8-45B8-99CF-90246FFCD6C5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "VuejsApp1", "VuejsApp1\VuejsApp1.njsproj", "{9AA15C9A-BC1F-4120-8FED-BEEA7A41547B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +54,26 @@ Global
 		{B980852F-65A1-4839-807D-25BDC67ED661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B980852F-65A1-4839-807D-25BDC67ED661}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B980852F-65A1-4839-807D-25BDC67ED661}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D55AA8B7-BF76-4992-B453-DFDCB1A0C458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55AA8B7-BF76-4992-B453-DFDCB1A0C458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55AA8B7-BF76-4992-B453-DFDCB1A0C458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55AA8B7-BF76-4992-B453-DFDCB1A0C458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBF35B5-A6E8-45B8-99CF-90246FFCD6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBF35B5-A6E8-45B8-99CF-90246FFCD6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBF35B5-A6E8-45B8-99CF-90246FFCD6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBF35B5-A6E8-45B8-99CF-90246FFCD6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA15C9A-BC1F-4120-8FED-BEEA7A41547B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA15C9A-BC1F-4120-8FED-BEEA7A41547B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA15C9A-BC1F-4120-8FED-BEEA7A41547B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA15C9A-BC1F-4120-8FED-BEEA7A41547B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D55AA8B7-BF76-4992-B453-DFDCB1A0C458} = {B6104D2B-2358-4800-8A43-4E30153E725A}
+		{3FBF35B5-A6E8-45B8-99CF-90246FFCD6C5} = {B6104D2B-2358-4800-8A43-4E30153E725A}
+		{9AA15C9A-BC1F-4120-8FED-BEEA7A41547B} = {B6104D2B-2358-4800-8A43-4E30153E725A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C50106E-4102-4472-A8E7-524535A6C49B}
